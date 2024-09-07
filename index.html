@@ -1,0 +1,233 @@
+<html>
+ <head>
+  <title>
+   Master Premium TV
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            background-color: #1a3b5c;
+            color: white;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #1a3b5c;
+        }
+        .header .logo {
+            display: flex;
+            align-items: center;
+        }
+        .header .logo img {
+            height: 50px;
+        }
+        .header .icons {
+            display: flex;
+            gap: 10px;
+        }
+        .header .icons i {
+            font-size: 24px;
+        }
+        .header .time {
+            font-size: 18px;
+        }
+        .sidebar {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            width: 200px;
+        }
+        .sidebar .menu-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            margin-bottom: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+        }
+        .sidebar .menu-item img {
+            height: 20px;
+            margin-right: 10px;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .content .channel {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .content .channel-item {
+            width: calc(25% - 10px);
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .content .channel-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <div class="logo">
+    <img alt="Master Premium TV Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-7DES51bdLjp1yM9O9q8DdJF6.png?st=2024-09-07T02%3A31%3A13Z&amp;se=2024-09-07T04%3A31%3A13Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T21%3A46%3A04Z&amp;ske=2024-09-07T21%3A46%3A04Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=7qxiYSakuEtw38hbonI8NIYmskRTFli2rQs7Qm2tnwM%3D" width="100"/>
+   </div>
+   <div class="icons">
+    <i class="fas fa-user">
+    </i>
+    <i class="fas fa-trash">
+    </i>
+    <i class="fas fa-search">
+    </i>
+    <i class="fas fa-cog">
+    </i>
+   </div>
+   <div class="time">
+    13:53 04/08/2024
+   </div>
+  </div>
+  <div class="flex">
+   <div class="sidebar">
+    <div class="menu-item">
+     <i class="fas fa-bars">
+     </i>
+     <span>
+      LIVE TV
+     </span>
+    </div>
+    <div class="menu-item">
+     <span>
+      TV DAERAH
+     </span>
+    </div>
+    <div class="menu-item">
+     <img alt="Malaysia Flag" height="20" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-CRjtsasXj5nzTTiI0BZoU2Rt.png?st=2024-09-07T02%3A31%3A16Z&amp;se=2024-09-07T04%3A31%3A16Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T22%3A04%3A39Z&amp;ske=2024-09-07T22%3A04%3A39Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=mijZ0SN%2B1NtxqjFhmjD1JZdmotFYZ4gOu8DjazOkbys%3D" width="20"/>
+     <span>
+      MALAYSIA
+     </span>
+    </div>
+    <div class="menu-item">
+     <img alt="Singapore Flag" height="20" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-spFRZ0uatnxez5T5c4wMhH4r.png?st=2024-09-07T02%3A31%3A15Z&amp;se=2024-09-07T04%3A31%3A15Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T22%3A28%3A08Z&amp;ske=2024-09-07T22%3A28%3A08Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=MTF/wKMLMx5kivbXbxG2iQWNofwXPHsVgpfWMBi/QhI%3D" width="20"/>
+     <span>
+      SINGAPORE
+     </span>
+    </div>
+    <div class="menu-item">
+     <img alt="China Flag" height="20" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-dXWp3OotkwHoImwLokJiF0cF.png?st=2024-09-07T02%3A31%3A15Z&amp;se=2024-09-07T04%3A31%3A15Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-07T00%3A26%3A29Z&amp;ske=2024-09-08T00%3A26%3A29Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=KbpgoUZwLxL8RmGDIRBEKb8KpHRDo6o4EJAZQIYG%2BAY%3D" width="20"/>
+     <span>
+      CHINA
+     </span>
+    </div>
+    <div class="menu-item">
+     <img alt="Thailand Flag" height="20" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-PQj3fAU0x4AaZTPPQE4xzWKx.png?st=2024-09-07T02%3A31%3A16Z&amp;se=2024-09-07T04%3A31%3A16Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T22%3A33%3A55Z&amp;ske=2024-09-07T22%3A33%3A55Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=LAwxGOlBCsZdcgehDNjF05399ppKNMBaapECWYkcudk%3D" width="20"/>
+     <span>
+      THAILAND
+     </span>
+    </div>
+   </div>
+   <div class="content">
+    <div class="channel">
+     <div class="channel-item">
+      <img alt="TRANS 7 Logo" src="https://placehold.co/100x50?text=TRANS+7"/>
+      <div>
+       TRANS 7 Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="TRANS TV Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-49NCkihTwzdAGWI1AmHlcJv9.png?st=2024-09-07T02%3A31%3A14Z&amp;se=2024-09-07T04%3A31%3A14Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T21%3A55%3A48Z&amp;ske=2024-09-07T21%3A55%3A48Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=UfhAyQdFxMllPNSroK3GvCV6HOdN640qNGDqI1mniRM%3D" width="100"/>
+      <div>
+       TRANS TV Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="INDOSIAR Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-YVNyPt0cZ4lYgozVYuGILFMr.png?st=2024-09-07T02%3A31%3A13Z&amp;se=2024-09-07T04%3A31%3A13Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T22%3A00%3A50Z&amp;ske=2024-09-07T22%3A00%3A50Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=qCqKNcdPGpHeQyut4BZEXuc%2BbpPGrPWWELsvN6LhLTk%3D" width="100"/>
+      <div>
+       INDOSIAR
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="SCTV Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-xJ4gT1HjdWl16DbzGuHxRG5d.png?st=2024-09-07T02%3A31%3A17Z&amp;se=2024-09-07T04%3A31%3A17Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T21%3A48%3A22Z&amp;ske=2024-09-07T21%3A48%3A22Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=PKI9uWMz/uhvnyJA9NDSk5SYfeaxg59gkH0wsVByREU%3D" width="100"/>
+      <div>
+       SCTV
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="RCTI Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-GvJnL3D0UGBrVs0Vy8JhSNaf.png?st=2024-09-07T02%3A31%3A16Z&amp;se=2024-09-07T04%3A31%3A16Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T21%3A33%3A52Z&amp;ske=2024-09-07T21%3A33%3A52Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=2Zjf%2Bu8Tc//n528CKb86%2BrS1GAkdzgtM4XtdAEmxIIE%3D" width="100"/>
+      <div>
+       RCTI Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="MNC TV Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-RjtkcoABc7UqpehH9vbacVTg.png?st=2024-09-07T02%3A31%3A22Z&amp;se=2024-09-07T04%3A31%3A22Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T22%3A03%3A34Z&amp;ske=2024-09-07T22%3A03%3A34Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=%2B9egduZ%2BMRy1hQIH8X%2BMS4ea3UTh3WNFgiR0Ba7%2BMRg%3D" width="100"/>
+      <div>
+       MNC TV Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="GTV Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-d6MS6fdKusSTnxyzzdJMSZmJ.png?st=2024-09-07T02%3A31%3A19Z&amp;se=2024-09-07T04%3A31%3A19Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T16%3A28%3A27Z&amp;ske=2024-09-07T16%3A28%3A27Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=VIGmbl6dbMWbcC8V6wUNQ4YDGHzMyLBxCEbpy1tRBEg%3D" width="100"/>
+      <div>
+       GTV Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="iNews Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-CEJXuoWKftEmyobGHgWJrFEK.png?st=2024-09-07T02%3A31%3A15Z&amp;se=2024-09-07T04%3A31%3A15Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T21%3A48%3A49Z&amp;ske=2024-09-07T21%3A48%3A49Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=4qMo1gpqat9n2ZZwO7WAMxpvx9rMYa%2ByTgWfVECEv8Y%3D" width="100"/>
+      <div>
+       iNEWS Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="TV ONE Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-6iw40z8zeiVwVXTgXpUCTzaY.png?st=2024-09-07T02%3A31%3A13Z&amp;se=2024-09-07T04%3A31%3A13Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T21%3A40%3A20Z&amp;ske=2024-09-07T21%3A40%3A20Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=icNdG%2BJ2XJ3zxYfDX46Brn9Uc4F90q0hrZct%2B0fcGvo%3D" width="100"/>
+      <div>
+       TV ONE Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="ANTV Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-pXEuQvr7zYBRp3NUdr8lxUAG.png?st=2024-09-07T02%3A31%3A16Z&amp;se=2024-09-07T04%3A31%3A16Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T21%3A36%3A38Z&amp;ske=2024-09-07T21%3A36%3A38Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=ll8wQb93I6pB2hnseLzoez/pN7pWRp%2BgfsddADwRMS8%3D" width="100"/>
+      <div>
+       ANTV Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="NET Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-AKoPLnncjdizxGuaV5QCUZdH.png?st=2024-09-07T02%3A31%3A14Z&amp;se=2024-09-07T04%3A31%3A14Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T21%3A27%3A44Z&amp;ske=2024-09-07T21%3A27%3A44Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=VCHPVoIofT0FIiLEpwpa7coRxOZLatR2S77LWEPhzCc%3D" width="100"/>
+      <div>
+       NET TV Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="METRO TV Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-TRBRvNUkn8im3lszm2S1srso.png?st=2024-09-07T02%3A31%3A16Z&amp;se=2024-09-07T04%3A31%3A16Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T21%3A34%3A24Z&amp;ske=2024-09-07T21%3A34%3A24Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=nScnajxb5fHYNDz8AM39xKhXB6nuRWuPzVb4KU6iluA%3D" width="100"/>
+      <div>
+       METRO TV Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="KOMPAS TV Logo" src="https://placehold.co/100x50?text=KOMPAS"/>
+      <div>
+       KOMPAS TV Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="RTV Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-MeogAzGhCCIO7y2TKwSwTZWy.png?st=2024-09-07T02%3A31%3A19Z&amp;se=2024-09-07T04%3A31%3A19Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T21%3A44%3A07Z&amp;ske=2024-09-07T21%3A44%3A07Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=48XEQv/vVFAreJP%2BJvkk51Fgea7X8Ru7epjIOtfq3gc%3D" width="100"/>
+      <div>
+       RTV Auto
+      </div>
+     </div>
+     <div class="channel-item">
+      <img alt="VIVA TV Logo" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-a1ZRAcQQ6KkEJkkJTAQfh2nw.png?st=2024-09-07T02%3A31%3A15Z&amp;se=2024-09-07T04%3A31%3A15Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-06T21%3A42%3A35Z&amp;ske=2024-09-07T21%3A42%3A35Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=JqlwhB53ykKTCNVi7DkqmbtPWjdTr5W8/T8gI/31pek%3D" width="100"/>
+      <div>
+       VIVA TV
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
